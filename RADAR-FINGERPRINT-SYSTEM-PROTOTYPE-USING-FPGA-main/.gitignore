@@ -1,0 +1,25 @@
+# Vivado / Xilinx generated files
+.Xil/
+*.log
+*.jou
+*.pb
+*.backup.log
+*.backup.jou
+xsim.dir/
+vivado_project/
+simple_cross_correlation/
+radar_cross_corelation/
+dfx_runtime.txt
+
+# Large generated output CSV files (re-generated on run)
+*_results_combined.csv
+results_fpga_correlation.csv
+results_matlab_golden.csv
+results_rx_signal.csv
+results_tx_signal.csv
+results_summary.csv
+
+# OS & MATLAB temporary files
+.DS_Store
+Thumbs.db
+*.asv
